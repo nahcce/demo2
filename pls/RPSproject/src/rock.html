@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<div>
+    <header>
+        <link href="https://fonts.googleapis.com/css?family=Vollkorn:700" rel="stylesheet">
+        <h1><strong>Rock Papers Scissors</strong></h1>
+    </header>
+
+
+    <div class="mainbox">
+
+        <div class="outcome">
+            <span class="Player"> You </span>
+            <span id = "winorlose"> ??? </span>
+            <span class="BPlayer"> NME </span>
+        </div>
+
+        <div class="conflict">
+            <div id="you">
+                <div id = "ainput"><img src="rock.png" height="100" width="100" alt="rock"></div>
+            </div>
+            <div id= "result">Victory!</p></div>
+            <div id="opponent">
+                <div id= "binput"><img src="scissor2.png" height="100" width="100" alt="scissor"></div>
+            </div>
+        </div>
+
+        <div class="option">
+            <button class="choice" id="rock" onclick="game(this.value)" value="rock">
+                <img src="rock.png" height="100" width="100" alt="rock">
+            </button>
+            <button class="choice" id="paper" onclick="game(this.value" value="paper">
+                <img src="paper.png" height="100" width="100" alt="paper">
+            </button>
+            <button class="choice" id="scissor" onclick="game(this.value)" value="scissor">
+                <img src="scissor2.png" height="100" width="100" alt="scissor">
+            </button>
+        </div>
+    </div>
+
+    <div class = "versus">
+        <p>Player1 vs Player2</p>
+        <p>Player3 vs Player4</p>
+        <p>Player5 vs Player6</p>
+        <p>Player7 vs Player8</p>
+        <p>Player9 vs Player10</p>
+        <p>...</p>
+    </div>
+
+    </div>
+
+</div>
+
+
+<div id="before">
+</div>
+
+<!--<script type="text/javascript" src="game.js"></script>-->
+
+</body>
+</html>
